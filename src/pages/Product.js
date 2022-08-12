@@ -3,11 +3,10 @@ import { Link } from "react-router-dom";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import ProductItem from "../components/ProductItem";
 
-import productData from "../data/products";
 const Product = () => {
   const [checked, setChecked] = useState(null);
   const [products, setProduct] = useState([]);
-  const proAll = productData.getAllProducts();
+  const proAll = [];
 
   useEffect(() => {
     setProduct(proAll);

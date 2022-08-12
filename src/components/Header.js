@@ -6,10 +6,8 @@ import { FiMail } from "react-icons/fi";
 import { AiOutlineUser } from "react-icons/ai";
 import HeaderBottom from "./HeaderBottom";
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
-const Header = () => {
-  const cartNumber = useSelector((state) => state.cart.value);
 
+const Header = () => {
   return (
     <>
       <div className="hidden w-full   h-10 leading-10  bg-[#68b943] md:flex  text-w">
@@ -35,7 +33,7 @@ const Header = () => {
             <Link to="/thanh-toan" className="flex relative ">
               <HiOutlineShoppingBag />
               <div className="absolute bg-w -top-[6px] -right-[10px]  w-4 h-4 text-xs flex items-center justify-center rounded-full">
-                <span className="text-b">{cartNumber.length || 0}</span>
+                {/* <span className="text-b">{cartNumber.length || 0}</span> */}
               </div>
             </Link>
           </div>
