@@ -40,16 +40,16 @@ const HeaderBottom = () => {
   return (
     <div
       className={`
-       h-[70px] w-full  max-w-[1280px] mx-auto  flex items-center px-[15px] mb-5 bg-w md:justify-start md:px-6  xl:px-8 border-b `}
+       h-[70px] w-full  max-w-[1170px] mx-auto  flex items-center xl:px-5 md:px-4 px-[10px] mb-5 bg-w md:justify-start  border-b `}
     >
       <button onClick={hanldeSetShow} className="text-2xl md:hidden z-10">
         <BiMenu />
       </button>
       <Link
         to="/"
-        className=" mx-auto flex items-center justify-center  h-full md:justify-start md:flex-none md:mx-0"
+        className=" mx-auto w-[60px] h-[60px] rounded-full flex items-center justify-center  md:justify-start md:flex-none md:mx-0"
       >
-        <img src="/logo-1.png" alt="" className="h-full p-2" />
+        <img src="/logo-primary.jpg" alt="" className="h-full p-2" />
       </Link>
       <Link
         to="/thanh-toan"
@@ -63,38 +63,26 @@ const HeaderBottom = () => {
       <div
         ref={menuRef}
         className={`${show ? "translate-x-0" : "-translate-x-full"} 
-          fixed inset-0  md:-translate-x-0 transition-all duration-150 bg-w text-c  z-10 gap-y-5 pt-5  flex flex-col md:text-b md:flex-row md:pt-0 md:bg-[#fff]  md:static items-center md:gap-x-4 md:flex md:text-lg font-bold md:ml-5 lg:ml-6 xl:ml-10 lg:text-xl  lg:gap-x-5`}
+          fixed inset-0  md:-translate-x-0 transition-all duration-150 bg-w text-[#5d5c56]  z-10 gap-y-5 pt-5  flex flex-col md:text-b md:flex-row md:pt-0 md:bg-[#fff]  md:static items-center md:gap-x-4 md:flex md:text-lg font-bold md:ml-5 lg:ml-6 xl:ml-10 lg:text-xl  lg:gap-x-5`}
       >
         <NavLink
           to="/"
           onClick={() => setShow(false)}
-          className={({ isActive }) =>
-            isActive
-              ? "relative link__header text-c py-1"
-              : "text-c cursor-pointer"
-          }
+          className={" header-menu-item"}
         >
           Trang chủ
         </NavLink>
         <NavLink
           to="/gioi-thieu"
           onClick={() => setShow(false)}
-          className={({ isActive }) =>
-            isActive
-              ? "relative link__header text-c py-1"
-              : "text-c cursor-pointer"
-          }
+          className={" header-menu-item"}
         >
           Giới Thiệu
         </NavLink>
         <NavLink
           to="/san-pham"
           onClick={() => setShow(false)}
-          className={({ isActive }) =>
-            isActive
-              ? "relative link__header text-c py-1"
-              : "text-c cursor-pointer"
-          }
+          className={" header-menu-item"}
         >
           Sản Phẩm
         </NavLink>
@@ -102,33 +90,21 @@ const HeaderBottom = () => {
         <NavLink
           to="/bai-viet"
           onClick={() => setShow(false)}
-          className={({ isActive }) =>
-            isActive
-              ? "relative link__header text-c py-1"
-              : "text-c cursor-pointer"
-          }
+          className={" header-menu-item"}
         >
           Bài viết
         </NavLink>
         <NavLink
           to="/thanh-toan"
           onClick={() => setShow(false)}
-          className={({ isActive }) =>
-            isActive
-              ? "relative link__header text-c py-1"
-              : "text-c cursor-pointer"
-          }
+          className={" header-menu-item"}
         >
           Giỏ Hàng
         </NavLink>
         <NavLink
           to="/lien-he"
           onClick={() => setShow(false)}
-          className={({ isActive }) =>
-            isActive
-              ? "relative link__header text-c py-1"
-              : "text-c cursor-pointer"
-          }
+          className={"text-c cursor-pointer header-menu-item"}
         >
           Liên Hệ
         </NavLink>

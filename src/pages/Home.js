@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from "react";
+import Banner from "../components/Banner";
+import CategorySuggest from "../components/CategorySuggest";
+import Section from "../components/Section";
 
 const Home = () => {
   return (
     <div className="home-page">
-      <h2>hellu</h2>
-      <span>home</span>
+      <Banner />
+      <CategorySuggest />
+      <Section />
     </div>
   );
 };
