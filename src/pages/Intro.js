@@ -87,16 +87,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="md:basis-[25%] flex flex-col gap-5 w-full">
-        <h3 className="text-xl font-medium py-1  border-b border-[#ddd]">
-          Dự án nổi bật
-        </h3>
-        <div className="grid grid-cols-1 gap-3">
-          {apiJob.slice(0, 2).map((item, index) => (
-            <ProductItemOne item={item} key={index} trys={true} />
-          ))}
-        </div>
-      </div>
+      <JobHot />
     </div>
   );
 };
@@ -109,3 +100,18 @@ const field = [
   " Đại lý, môi giới, đấu giá",
   "Hoạt động xây dựng chuyên dụng",
 ];
+
+export function JobHot() {
+  return (
+    <div className="md:basis-[25%] flex flex-col gap-5 w-full">
+      <h3 className="text-xl font-medium py-1  border-b border-[#ddd]">
+        Dự án nổi bật
+      </h3>
+      <div className="grid grid-cols-1 gap-3">
+        {apiJob.slice(0, 2).map((item, index) => (
+          <ProductItemOne item={item} key={index} trys={true} />
+        ))}
+      </div>
+    </div>
+  );
+}

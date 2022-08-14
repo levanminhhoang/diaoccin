@@ -9,7 +9,7 @@ const Breadcrumb = ({
   return (
     <div className="flex items-center gap-x-2 text-[#666] text-sm font-medium">
       <Link to="/">Trang chủ</Link> <span>/</span>
-      <p className="text-f">Dự án</p>
+      <p className="text-f">{breadTitle}</p>
     </div>
   );
 };

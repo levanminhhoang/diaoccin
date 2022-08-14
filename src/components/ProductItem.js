@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 
 const ProductItem = ({ item }) => {
   const { area, bedroom, bathroom } = item?.infoProject;
+  const navigate = useNavigate();
+
   const information = [
     {
       image: "/icon/icon-small/area.jpg",
@@ -18,8 +20,14 @@ const ProductItem = ({ item }) => {
       content: bathroom,
     },
   ];
+  const handlePushDetail = (slug) => {
+    navigate(`/nha-dat/${slug}`);
+  };
   return (
-    <div className="flex relative flex-col  rounded-lg shadow-lg hover:-translate-y-[1px]  cursor-pointer ">
+    <div
+      onClick={() => handlePushDetail(item?.slug)}
+      className="flex relative flex-col  rounded-lg shadow-lg hover:-translate-y-[1px]  cursor-pointer "
+    >
       <div className="pt-[76%] relative border__t">
         <img
           src={item?.image}
@@ -45,7 +53,7 @@ const ProductItem = ({ item }) => {
             ))}
           </div>
         </div>
-        <div className="text-[#dc2626] text-sm uppercase text__over-2 font-bold">
+        <div className="text-[#dc2626] text-sm uppercase text__over-2 font-bold min-h-[40px]">
           {item?.title}
         </div>
         <div className="flex float-right items-center ">

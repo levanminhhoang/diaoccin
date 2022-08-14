@@ -71,7 +71,7 @@ const HeaderBottom = () => {
           Giới Thiệu
         </NavLink>
         <NavLink
-          to="/"
+          to="/nha-dat"
           onClick={() => setShow(false)}
           className={" header-menu-item"}
         >

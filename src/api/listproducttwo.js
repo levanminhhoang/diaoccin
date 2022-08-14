@@ -1,36 +1,36 @@
 export const project = [
-  {
-    id: 1,
-    image:
-      "	https://nhadatvui.vn/uploads/images/medium/6bd885dc9847a82baa6f14e24d387553.jpg",
-    thumbnail: [
-      {
-        id: 1,
-        thumbnail: "",
-      },
-      {
-        id: 2,
-        thumbnail: "",
-      },
-      {
-        id: 3,
-        thumbnail: "",
-      },
-    ],
-    title: "Bán đất Kiệt Đặng Văn Ngữ Thành Phố Huế",
-    address: "Kiệt Đặng Văn Ngữ- Huế",
-    price: {
-      value: 3.4,
-      current: "Tỷ",
-    },
-    infoProject: {
-      area: 118.4,
-      street: 3,
-      direction: "ĐB",
-    },
-    slug: "dvn-01",
-    Introduce: "",
-  },
+  //   {
+  //     id: 1,
+  //     image:
+  //       "https://nhadatvui.vn/uploads/images/medium/6bd885dc9847a82baa6f14e24d387553.jpg",
+  //     thumbnail: [
+  //       {
+  //         id: 1,
+  //         thumbnail: "",
+  //       },
+  //       {
+  //         id: 2,
+  //         thumbnail: "",
+  //       },
+  //       {
+  //         id: 3,
+  //         thumbnail: "",
+  //       },
+  //     ],
+  //     title: "Bán đất Kiệt Đặng Văn Ngữ Thành Phố Huế",
+  //     address: "Kiệt Đặng Văn Ngữ- Huế",
+  //     price: {
+  //       value: 3.4,
+  //       current: "Tỷ",
+  //     },
+  //     infoProject: {
+  //       area: 118.4,
+  //       street: 3,
+  //       direction: "ĐB",
+  //     },
+  //     slug: "dvn-01",
+  //     Introduce: "",
+  //   },
   {
     id: 2,
     image:
