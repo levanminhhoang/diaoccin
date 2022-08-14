@@ -4,7 +4,7 @@ import CategorySuggest from "../components/CategorySuggest";
 import ProductItemOne from "../components/ProductItemOne";
 import Section from "../components/Section";
 import { apiJob } from "../api/projectJob";
-import SectionOne from "../components/SectionOne";
+
 const Home = () => {
   return (
     <div className="home-page">
