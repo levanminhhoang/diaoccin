@@ -1,0 +1,114 @@
+.footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  &__information {
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: Roboto, sans-serif;
+    color: gray;
+    &__logo {
+      width: 100%;
+      max-width: 50px;
+    }
+    &__contact {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      &__address {
+        h1 {
+          font-family: Roboto, sans-serif;
+          font-size: 1rem;
+          line-height: 18px;
+          padding-bottom: 10px;
+        }
+        &__icon {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          &__addressName {
+            color: #5c5d56;
+          }
+        }
+      }
+      &__us {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        &__blog {
+          display: flex;
+          gap: 12px;
+          &__item {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #ddd;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+    &__list {
+      display: flex;
+      justify-content: space-around;
+      &__introduce {
+        &__item {
+          display: flex;
+          flex-direction: column;
+          row-gap: 6px;
+          a {
+            font-size: 14.4px;
+            color: gray;
+          }
+        }
+        &__title {
+          margin-bottom: 25px;
+          font-size: 18px;
+          color: #242933;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer {
+    &__information {
+      padding: 0 15px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 10px;
+      &__contact {
+        &__us {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 7px;
+        }
+      }
+      &__list {
+        flex-direction: column;
+        row-gap: 20px;
+        &__introduce {
+          &__item {
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .footer {
+    &__information {
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 30px;
+      &__list {
+        justify-content: space-between;
+      }
+    }
+  }
+}
