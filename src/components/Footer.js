@@ -19,14 +19,11 @@ const Footer = () => {
             </div>
             <div className="footer__information__contact__address">
               <h1>CÔNG TY CỔ PHẦN WESTERN HOMES VIỆT NAM</h1>
-              <h1></h1>
+
               <div className="footer__information__contact__address__icon">
                 <FiMapPin />
                 <div className="footer__information__contact__address__icon__addressName">
-                  <h2>
-                    195 Phan Đình Phùng, Phường Phú Thuận, Thành phố Huế, Tỉnh
-                    Thừa Thiên Huế, Việt Nam
-                  </h2>
+                  <h2>195 Phan Đình Phùng, Phường Phú Thuận, TP Huế</h2>
                 </div>
               </div>
             </div>
