@@ -11,6 +11,7 @@ module.exports = {
       d: "#eec346",
       e: "#fbd232",
       f: "#bc0001",
+      h: "#5d5c56",
     },
     fontFamily: {
       sans: ["Roboto", "sans-serif"],

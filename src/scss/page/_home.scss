@@ -1,7 +1,2 @@
 .home-page {
-  h2 {
-    @include respond(large-mobile) {
-      display: none;
-    }
-  }
 }
