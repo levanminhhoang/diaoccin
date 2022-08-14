@@ -20,7 +20,7 @@ export const suggest = [
     content: "Mua Nhà",
   },
   {
-    image: "/icon/mua-nha.jpg",
+    image: "/icon/thue-nha.jpg",
     slug: "",
     content: "Thuê Nhà",
   },

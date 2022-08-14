@@ -10,31 +10,35 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className="hidden w-full   h-10 leading-10  bg-[#68b943] md:flex  text-w">
-        <div className="flex items-center justify-between w-full px-[15px]  md:px-6  xl:px-8  max-w-[1280px] mx-auto">
+      <div className="hidden w-full   h-10 leading-10  bg-[#eec346] md:flex  text-w">
+        <div className="flex items-center justify-between w-full px-[15px]  md:px-4  xl:px-5  max-w-[1170px] mx-auto">
           <div className="cursor-pointer flex gap-x-5">
             <div className="flex items-center gap-x-2">
               <BiPhone />
-              <a href="tel:+0828469977">0828 46 9977</a>
+              <a href="tel:+0905861215">0905 861 215</a>
             </div>
             <div className="flex items-center gap-x-2">
               <FiMail />
               <a href="mailto:tinhdauthaiviet@gmail.com">
-                tinhdauthaiviet@gmail.com
+                ctcpwesternhomes@gmail.com
               </a>
             </div>
           </div>
 
           <div className="flex  gap-x-4 ">
             <Link to="/login" className="flex items-center">
-              <span className="text-base leading-[16px] mr-2"></span>
               <AiOutlineUser />
+              <span className="text-base leading-[16px] ml-2">đăng nhập</span>
             </Link>
-            <Link to="/thanh-toan" className="flex relative ">
-              <HiOutlineShoppingBag />
-              <div className="absolute bg-w -top-[6px] -right-[10px]  w-4 h-4 text-xs flex items-center justify-center rounded-full">
-                {/* <span className="text-b">{cartNumber.length || 0}</span> */}
-              </div>
+            <Link
+              to="/thanh-toan"
+              className="flex w-5 h-5 items-center justify-center"
+            >
+              <img
+                src="tin.jpg"
+                alt=""
+                className="w-full h-full object-cover rounded-full"
+              />
             </Link>
           </div>
         </div>

@@ -84,7 +84,7 @@ const HeaderBottom = () => {
           onClick={() => setShow(false)}
           className={" header-menu-item"}
         >
-          Sản Phẩm
+          Dự án
         </NavLink>
 
         <NavLink
@@ -97,9 +97,13 @@ const HeaderBottom = () => {
         <NavLink
           to="/thanh-toan"
           onClick={() => setShow(false)}
-          className={" header-menu-item"}
+          className={" "}
         >
-          Giỏ Hàng
+          <img
+            src="tuyen-dung.jpeg"
+            className="w-[40px] h-[40px] object-cover"
+            alt=""
+          />
         </NavLink>
         <NavLink
           to="/lien-he"

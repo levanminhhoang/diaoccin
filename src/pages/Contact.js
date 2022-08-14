@@ -35,7 +35,7 @@ const Contact = () => {
     <div className="w-full max-w-[1280px] mx-auto px-[10px] md:px-3 lg:px-4 xl:px-5 mt-20">
       <div className="flex flex-col">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4722.0277381900905!2d107.96849393107921!3d16.274653307282605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314189d8a44071f9%3A0xde9def487edefff2!2zVGluaCBk4bqndSB0aMOhaSB2aeG7h3Q!5e0!3m2!1svi!2s!4v1653123147352!5m2!1svi!2s"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.366412091347!2d107.59729791481305!3d16.45697408864242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a16ac7386f43%3A0xa1458e463715ff7a!2zMTk1IFBoYW4gxJDDrG5oIFBow7luZywgUGjDuiBOaHXhuq1uLCBUaMOgbmggcGjhu5EgSHXhur8sIFRo4burYSBUaGnDqm4gSHXhur8sIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1660446524591!5m2!1svi!2s"
           title="map"
           className="w-full h-[400px]"
           frameBorder="0"
@@ -45,24 +45,22 @@ const Contact = () => {
       </div>
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 mt-10">
         <div className="flex text-base flex-col px-4 gap-2 text-center">
-          <h2 className="text-center">
-            CÔNG TY TNHH SẢN XUẤT TINH DẦU THÁI VIỆT
-          </h2>
+          <h2 className="text-center">CÔNG TY CỔ PHẦN WESTERN HOMES</h2>
           <div className=" flex flex-col ">
             <span className="">
-              <strong>Địa chỉ:</strong> Thôn Phước Lộc, xã Lộc Tiến, huyện Phú
-              Lộc, tỉnh Thừa Thiên Huế
+              <strong>Địa chỉ:</strong> 195 Phan Đình phùng, Phường Phú Nhuận,
+              Thành Phố Huế
             </span>
             <span className="">
-              <strong>Người đại diện: </strong> Nguyễn Tiến Dũng
+              <strong>Người đại diện: </strong> Nguyễn Đức Lập
             </span>
             <span className="">
-              <strong>Điện thoại: </strong> 0828 46 9977
+              <strong>Điện thoại: </strong> 0905 861 215
             </span>
             <span className="">
               <strong>Email: </strong>
-              <a href="mailto:tinhdauthaiviet@gmail.com">
-                tinhdauthaiviet@gmail.com
+              <a href="mailto:ctcpwesternhomes@gmail.com">
+                ctcpwesternhomes@gmail.com
               </a>
             </span>
             <div className="mt-5 flex items-center justify-center">
@@ -106,7 +104,7 @@ const Contact = () => {
                 className="outline-none border border-[#ccc] w-full px-2 py-2 focus:border-c h-28"
               />
             </div>
-            <button className="w-full max-w-[132px] bg-d text-w rounded-sm hover:opacity-75 py-[6px]">
+            <button className="w-full max-w-[132px] bg-f text-w rounded-sm hover:opacity-75 py-[6px]">
               Gửi ngay
             </button>
           </form>
