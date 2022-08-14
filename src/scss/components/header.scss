@@ -1,0 +1,10 @@
+.header-menu-item {
+  cursor: pointer;
+  color: $gray;
+  padding: 6px 8px;
+  border-radius: 8px;
+  &:hover {
+    background-color: $primary-color;
+    color: $white;
+  }
+}

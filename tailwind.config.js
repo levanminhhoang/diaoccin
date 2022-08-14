@@ -8,9 +8,9 @@ module.exports = {
       w: "#fff",
       b: "#000",
       c: "#4c503d",
-      d: "#ee4d2d",
+      d: "#eec346",
       e: "#fbd232",
-      f: "#221f20",
+      f: "#bc0001",
     },
     fontFamily: {
       sans: ["Roboto", "sans-serif"],
