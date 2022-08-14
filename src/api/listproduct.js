@@ -29,6 +29,7 @@ export const project = [
     },
     slug: "",
     Introduce: "",
+    //không có ảnh
   },
   {
     id: 2,
@@ -60,6 +61,7 @@ export const project = [
     },
     slug: "",
     Introduce: "",
+    //không có ảnh
   },
   {
     id: 3,
@@ -91,14 +93,15 @@ export const project = [
     },
     slug: "",
     Introduce: "",
+    //không có ảnh
   },
   {
     id: 4,
-    image: "",
+    image: "/nhan1.jpg",
     thumbnail: [
       {
         id: 1,
-        thumbnail: "",
+        thumbnail: "/nhan.jpg",
       },
       {
         id: 2,
@@ -125,11 +128,11 @@ export const project = [
   },
   {
     id: 5,
-    image: "",
+    image: "/lichdoi.jpg",
     thumbnail: [
       {
         id: 1,
-        thumbnail: "",
+        thumbnail: "/lichdoi.jpg",
       },
       {
         id: 2,
@@ -184,14 +187,15 @@ export const project = [
     },
     slug: "",
     Introduce: "",
+    //không có ảnh
   },
   {
     id: 7,
-    image: "",
+    image: "/sang.jpg",
     thumbnail: [
       {
         id: 1,
-        thumbnail: "",
+        thumbnail: "/sang.jpg",
       },
       {
         id: 2,
@@ -218,11 +222,11 @@ export const project = [
   },
   {
     id: 8,
-    image: "",
+    image: "/thanh/thanh1.jpg",
     thumbnail: [
       {
         id: 1,
-        thumbnail: "",
+        thumbnail: "/thanh/thanh5.jpg",
       },
       {
         id: 2,
@@ -249,15 +253,15 @@ export const project = [
   },
   {
     id: 9,
-    image: "",
+    image: "/thanh/thanh2.jpg",
     thumbnail: [
       {
         id: 1,
-        thumbnail: "",
+        thumbnail: "/thanh/thanh4.jpg",
       },
       {
         id: 2,
-        thumbnail: "",
+        thumbnail: "/thanh/thanh7.jpg",
       },
       {
         id: 3,
@@ -280,11 +284,11 @@ export const project = [
   },
   {
     id: 10,
-    image: "",
+    image: "/thanh/thanh3.jpg",
     thumbnail: [
       {
         id: 1,
-        thumbnail: "",
+        thumbnail: "/thanh/thanh6.jpg",
       },
       {
         id: 2,
@@ -339,14 +343,15 @@ export const project = [
     },
     slug: "",
     Introduce: "",
+    //không có ảnh
   },
   {
     id: 12,
-    image: "",
+    image: "/ngoc2.jpg",
     thumbnail: [
       {
         id: 1,
-        thumbnail: "",
+        thumbnail: "/ngoc2.jpg",
       },
       {
         id: 2,
@@ -373,7 +378,7 @@ export const project = [
   },
   {
     id: 13,
-    image: "",
+    image: "/ngoc1.jpg",
     thumbnail: [
       {
         id: 1,
@@ -432,6 +437,7 @@ export const project = [
     },
     slug: "",
     Introduce: "",
+    //không có ảnh
   },
   {
     id: 15,
@@ -463,6 +469,7 @@ export const project = [
     },
     slug: "",
     Introduce: "",
+    //không có ảnh
   },
   {
     id: 16,
@@ -494,6 +501,7 @@ export const project = [
     },
     slug: "",
     Introduce: "",
+    //không có ảnh
   },
   {
     id: 17,
@@ -522,17 +530,18 @@ export const project = [
       area: 212,
       street: 5,
       // direction: "ĐB",
+      //không có ảnh
     },
     slug: "",
     Introduce: "",
   },
   {
     id: 18,
-    image: "",
+    image: "/hunglien1.jpg",
     thumbnail: [
       {
         id: 1,
-        thumbnail: "",
+        thumbnail: "/hunglien.jpg",
       },
       {
         id: 2,
@@ -559,15 +568,15 @@ export const project = [
   },
   {
     id: 19,
-    image: "",
+    image: "/aduyen.jpg",
     thumbnail: [
       {
         id: 1,
-        thumbnail: "",
+        thumbnail: "/aduyen1.jpg",
       },
       {
         id: 2,
-        thumbnail: "",
+        thumbnail: "/aduyen2.jpg",
       },
       {
         id: 3,
@@ -618,5 +627,6 @@ export const project = [
     },
     slug: "",
     Introduce: "",
+    //không có ảnh
   },
 ];
