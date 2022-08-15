@@ -34,7 +34,7 @@ const ProductItem = ({ item }) => {
           </span>
           <div className="flex items-center gap-1 text-[13px] justify-between">
             {information.map((info, index) => (
-              <div key={index} className="flex items-center gap-1">
+              <div key={index} className="flex items-center gap-1 product-item">
                 <img
                   className="w-[18px] h-[18px] object-cover"
                   src={info?.image}
@@ -49,14 +49,16 @@ const ProductItem = ({ item }) => {
           {item?.title}
         </div>
         <div className="flex float-right items-center ">
-          <div className="w-[34px] h-[18px] ml-1 mr-1 flex item-center justify-center">
+          <div className="w-[34px] h-[18px] mr-2 flex item-center justify-center">
             <img
               className="w-[18px] h-[18px] object-cover"
               src="/icon/icon-small/location-primary.jpg"
               alt=""
             />
           </div>
-          <span className="text__over-1">{item?.address}</span>
+          <span className="text__over-1 text-sm lg:text-base">
+            {item?.address}
+          </span>
         </div>
       </div>
     </div>
