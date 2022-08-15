@@ -12,6 +12,7 @@ const Home = () => {
     <div className="home-page">
       <Banner />
       <CategorySuggest />
+
       <InformationBranch />
       <div className="w-full max-w-[1170px] mx-auto my-10 px-[10px] md:px-5 lg:px-8">
         <div className="flex items-center justify-between">

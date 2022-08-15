@@ -1,5 +1,5 @@
 import React from "react";
-
+import Brand from "../components/Brand";
 const InformationBranch = () => {
   return (
     <div className="w-full max-w-[1170px] mx-auto my-10 px-[10px] md:px-5 lg:px-8">
@@ -12,6 +12,7 @@ const InformationBranch = () => {
         quyết tâm phấn đấu để trở thành doanh nghiệp bất động sản số một Việt
         Nam với tiêu chí
       </h3>
+      <Brand />
     </div>
   );
 };

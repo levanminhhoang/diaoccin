@@ -3,6 +3,7 @@ import Breadcrumb from "../components/Breadcrumb";
 import { useParams } from "react-router-dom";
 const JobDetails = () => {
   const { slug } = useParams();
+  console.log(slug);
 
   const iconOne = [
     {
