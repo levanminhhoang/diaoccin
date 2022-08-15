@@ -1,7 +1,8 @@
 export const project = [
   {
     id: 1,
-    image: "",
+    image:
+      "	https://nhadatvui.vn/uploads/images/medium/6bd885dc9847a82baa6f14e24d387553.jpg",
     thumbnail: [
       {
         id: 1,
@@ -33,7 +34,8 @@ export const project = [
   },
   {
     id: 2,
-    image: "",
+    image:
+      "https://nhadatvui.vn/uploads/images/medium/ab862988251b5100fe07ff46715baffe.jpg",
     thumbnail: [
       {
         id: 1,
@@ -65,7 +67,8 @@ export const project = [
   },
   {
     id: 3,
-    image: "",
+    image:
+      "	https://nhadatvui.vn/uploads/images/medium/6bd885dc9847a82baa6f14e24d387553.jpg",
     thumbnail: [
       {
         id: 1,

@@ -24,8 +24,8 @@ function App() {
       <Routes>
         <Route element={<LayOut />}>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/san-pham" element={<Product />} />
-          <Route path="/san-pham/:slug" element={<ProductDetail />} />
+          <Route path="/du-an" element={<Product />} />
+          <Route path="/du-an/:slug" element={<ProductDetail />} />
           <Route path="/lien-he" element={<Contact />} />
           <Route path="/gioi-thieu" element={<Intro />} />
           <Route path="/bai-viet" element={<Blog />} />

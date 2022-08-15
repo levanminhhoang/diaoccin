@@ -38,15 +38,15 @@ const Section = ({ title = "Nhà đất bán mới nhất", data: productSaler }
 
             678: {
               minWidth: 678,
-              slidesPerView: 4,
+              slidesPerView: 3,
             },
             320: {
               minWidth: 300,
               slidesPerView: 2,
             },
-            500: {
-              minWidth: 500,
-              slidesPerView: 3,
+            400: {
+              minWidth: 400,
+              slidesPerView: 2,
             },
           }}
         >
