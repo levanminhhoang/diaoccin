@@ -82,7 +82,7 @@ const Footer = () => {
           <div className="footer__information__list">
             <div className="footer__information__list__introduce">
               <div className="footer__information__list__introduce__title">
-                <p>Về Nhadatvui.vn</p>
+                <p>Về Western Homes</p>
               </div>
               <div className="footer__information__list__introduce__item">
                 <a href="/">Giới thiệu</a>

@@ -64,7 +64,7 @@ const Contact = () => {
               </a>
             </span>
             <div className="mt-5 flex items-center justify-center">
-              <img src="/thaiviet1.jpg" alt="thaiviet" className="w-[300px]" />
+              <img src="/thaiviet1.jpg" alt="" className="w-[300px]" />
             </div>
           </div>
         </div>
