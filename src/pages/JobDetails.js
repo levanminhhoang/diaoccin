@@ -2,12 +2,15 @@ import React, { useEffect, useState } from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import { useParams } from "react-router-dom";
 import { jobCityLand } from "../api/jobCityLand";
+import { project } from "../api/listproduct";
 const JobDetails = () => {
   const { slug } = useParams();
   const [product, setProduct] = useState({});
   useEffect(() => {
-    const data = jobCityLand.filter((item) => item.slug == slug);
-    setProduct(...data);
+    const data = project.filter((item) => item.slug == slug);
+    if (data) {
+      setProduct(...data);
+    }
   }, [jobCityLand]);
 
   const iconOne = [
@@ -63,6 +66,7 @@ const JobDetails = () => {
     },
   ];
   const images = product?.thumbnail;
+
   console.log(product);
   return (
     <div className="w-full max-w-[1170px] mx-auto my-10 px-[10px] md:px-4 lg:px-5 flex flex-col">
