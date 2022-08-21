@@ -8,15 +8,15 @@ const ProductItem = ({ item }) => {
 
   const information = [
     {
-      image: "/icon/icon-small/area.jpg",
+      image: "/area.jpg",
       content: `${area} m²`,
     },
     {
-      image: "/icon/icon-small/giuong.jpg",
+      image: "/giuong.jpg",
       content: bedroom,
     },
     {
-      image: "/icon/icon-small/bon-tam.jpg",
+      image: "/bon-tam.jpg",
       content: bathroom,
     },
   ];
@@ -60,7 +60,7 @@ const ProductItem = ({ item }) => {
           <div className="w-[34px] h-[18px] mr-2 flex item-center justify-center">
             <img
               className="w-[18px] h-[18px] object-cover"
-              src="/icon/icon-small/location-primary.jpg"
+              src="/location-primary.jpg"
               alt=""
             />
           </div>

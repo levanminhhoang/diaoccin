@@ -4,15 +4,15 @@ const ProductItemOne = ({ item, trys }) => {
   const block = `Quy Mô: ${item?.scale?.block} block, ${item?.scale?.apartment} căn hộ`;
   const information = [
     {
-      icon: "/icon/loca.jpg",
+      icon: "/g.jpg",
       content: item?.address,
     },
     {
-      icon: "/icon/ngoi-nha.png",
+      icon: "/k.png",
       content: block,
     },
     {
-      icon: "/icon/menu.jpg",
+      icon: "/h.jpg",
       content: item?.type,
     },
   ];
