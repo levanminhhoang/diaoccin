@@ -632,4 +632,324 @@ export const project = [
     Introduce: "",
     //không có ảnh
   },
+  {
+    id: 21,
+    image: "/aphongsc.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "",
+      },
+      {
+        id: 2,
+        thumbnail: "",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "",
+    address: "7/42 Tùng Thiện Vương-P.Vỹ Dạ- Tp Huế",
+    price: {
+      value: 5.1381,
+      current: "Tỷ",
+    },
+    infoProject: {
+      area: 190.3,
+      street: 4,
+      direction: "T",
+    },
+    slug: "",
+    Introduce: "",
+    //không có ảnh
+  },
+  {
+    id: 22,
+    image: "/aphongsc2.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "",
+      },
+      {
+        id: 2,
+        thumbnail: "",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "",
+    address: "242 Bùi Thị Xuân- P.Phường Đúc- Tp Huế",
+    price: {
+      value: 13.776,
+      current: "Tỷ",
+    },
+    infoProject: {
+      area: 393.6,
+      street: 19.5,
+      direction: "TN",
+    },
+    slug: "",
+    Introduce: "",
+    //không có ảnh
+  },
+  {
+    id: 23,
+    image: "/ahung.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "",
+      },
+      {
+        id: 2,
+        thumbnail: "",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "",
+    address: "TDP Tây Trì Nhơn-P.Phú Thượng",
+    price: {
+      value: 1.6,
+      current: "Tỷ",
+    },
+    infoProject: {
+      area: 80.2,
+      street: 4,
+      direction: "TN",
+    },
+    slug: "",
+    Introduce: "",
+    //không có ảnh
+  },
+  {
+    id: 24,
+    image: "/ahoanglinh.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "ahoanglinh1.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "ahoanglinh2.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "",
+    address: "Mặt tiền Tùng Thiện Vương",
+    price: {
+      value: 4.2,
+      current: "Tỷ",
+    },
+    infoProject: {
+      area: 69,
+      street: 26,
+      // direction: "TN",
+    },
+    slug: "",
+    Introduce: "",
+    //không có ảnh
+  },
+  {
+    id: 25,
+    image: "/dattp/bdstu.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/dattp/bdstu1.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/dattp/bdstu2.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "/dattp/bdstu3.jpg",
+      },
+    ],
+    title: "",
+    address: "Đất Phân Lô Kiệt PVĐ",
+    price: {
+      value: 2.38,
+      current: "Tỷ",
+    },
+    infoProject: {
+      // area: 69,
+      street: 80,
+      // direction: "TN",
+    },
+    slug: "",
+    Introduce: "",
+    //không có ảnh
+  },
+  {
+    id: 26,
+    image: "/dattp/khanh.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "",
+      },
+      {
+        id: 2,
+        thumbnail: "",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "",
+    address: "3/29/143 Phan Bội Châu",
+    price: {
+      value: 1.7,
+      current: "Tỷ",
+    },
+    infoProject: {
+      area: 74.5,
+      street: 3,
+      direction: "TN",
+    },
+    slug: "",
+    Introduce: "",
+    //không có ảnh
+  },
+  {
+    id: 27,
+    image: "",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "",
+      },
+      {
+        id: 2,
+        thumbnail: "",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "",
+    address: "Tây Trì Nhơn- P.Phú Thượng",
+    price: {
+      // value: 1.7,
+      current: "TLCC",
+    },
+    infoProject: {
+      area: 128,
+      street: 8,
+      direction: "ĐB",
+    },
+    slug: "",
+    Introduce: "",
+    //không có ảnh
+  },
+  {
+    id: 28,
+    image: "/dattp/khoi.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "",
+      },
+      {
+        id: 2,
+        thumbnail: "",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "",
+    address: "Phú Mậu-Tp Huế",
+    price: {
+      value: 1.6,
+      current: "Tỷ",
+    },
+    infoProject: {
+      area: 110,
+      street: 4.4,
+      direction: "ĐN",
+    },
+    slug: "",
+    Introduce: "",
+    //không có ảnh
+  },
+  {
+    id: 29,
+    image: "",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "",
+      },
+      {
+        id: 2,
+        thumbnail: "",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "",
+    address: "Thôn Lại Thế 1-Phú Thượng- Huế",
+    price: {
+      value: 2.8,
+      current: "Tỷ",
+    },
+    infoProject: {
+      area: 98.4,
+      street: 6,
+      direction: "TB",
+    },
+    slug: "",
+    Introduce: "",
+    //không có ảnh
+  },
+  {
+    id: 30,
+    image: "/dattp/ahieu.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "",
+      },
+      {
+        id: 2,
+        thumbnail: "",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "",
+    address: "Kiệt Trần Phú- P.Phước Vĩnh- Tp. Huế",
+    price: {
+      value: 1.45,
+      current: "Tỷ",
+    },
+    infoProject: {
+      area: 68.1,
+      street: 2,
+      direction: "ĐB",
+    },
+    slug: "",
+    Introduce: "",
+    //không có ảnh
+  },
 ];
