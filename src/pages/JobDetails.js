@@ -12,25 +12,25 @@ const JobDetails = () => {
 
   const iconOne = [
     {
-      icon: "/icon/icon-small/area.jpg",
+      icon: "/area.jpg",
       subTitleIcon: "Diện tích",
       value: "155",
       current: "m²",
     },
     {
-      icon: "/icon/icon-small/giuong.jpg",
+      icon: "/giuong.jpg",
       subTitleIcon: "Phòng ngủ",
       value: "3",
       current: "",
     },
     {
-      icon: "/icon/icon-small/bon-tam.jpg",
+      icon: "/bon-tam.jpg",
       subTitleIcon: "Phòng tắm",
       value: "2",
       current: "",
     },
     {
-      icon: "/icon/icon-small/giay-to.jpg",
+      icon: "/giay-to.jpg",
       subTitleIcon: "Giấy tờ pháp lý",
       value: "sổ hồng",
       current: "",
@@ -38,25 +38,25 @@ const JobDetails = () => {
   ];
   const iconTwo = [
     {
-      icon: "/icon/icon-small/la-ban.jpg",
+      icon: "/la-ban.jpg",
       subTitleIcon: "Hướng ban công",
       value: "Đông bắc",
       current: "",
     },
     {
-      icon: "/icon/icon-small/width.jpg",
+      icon: "/width.jpg",
       subTitleIcon: "Chiều dài",
       value: "15.5",
       current: "m",
     },
     {
-      icon: "/icon/icon-small/height.jpg",
+      icon: "/height.jpg",
       subTitleIcon: "Chiều rộng",
       value: "10",
       current: "m",
     },
     {
-      icon: "/icon/icon-small/hien-trang.jpg",
+      icon: "/hien-trang.jpg",
       subTitleIcon: "Hiện trạng nhà",
       value: "Đang ở",
       current: "",
@@ -96,7 +96,7 @@ const JobDetails = () => {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <img
-                  src="/icon/loca.jpg"
+                  src="/g.jpg"
                   className="w-[18px] h-[18px] object-cover"
                   alt=""
                 />
