@@ -47,6 +47,17 @@ const Home = () => {
         </div>
       </div>
       <Advise />
+
+      <a
+        href="tel:+0935523636"
+        className="fixed bottom-4 right-2 w-16 h-16 block animate-bounce"
+      >
+        <img
+          src="/whatsapp.jfif"
+          alt="phones"
+          className="w-full h-full object-cover"
+        />
+      </a>
     </div>
   );
 };
@@ -56,7 +67,7 @@ function BlogItem({ item }) {
   return (
     <Link to={`/${item?.slug}`} className="flex gap-3 flex-col md:flex-row">
       <div
-        className={`relative md:basis-6/12 w-full max-w-[300px] min-h-[165px] `}
+        className={`relative md:basis-6/12 w-full  md:max-w-[300px] min-h-[165px] `}
       >
         <img
           src={item?.image}

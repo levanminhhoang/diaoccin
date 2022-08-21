@@ -23,14 +23,14 @@ const Footer = () => {
               <div className="footer__information__contact__address__icon">
                 <FiMapPin />
                 <div className="footer__information__contact__address__icon__addressName">
-                  <h2>195 Phan Đình Phùng, Phường Phú Thuận, TP Huế</h2>
+                  <h2>Lô B15 - The Manor Crown Huế - Thừa Thiên Huế</h2>
                 </div>
               </div>
             </div>
             <div className="footer__information__contact__address__icon">
               <FiPhone />
               <div className="footer__information__contact__address__icon__phoneNumber">
-                <p>0905 861 215</p>
+                <p>093 552 3636</p>
               </div>
             </div>
             <div className="footer__information__contact__address__icon">

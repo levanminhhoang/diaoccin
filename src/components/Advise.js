@@ -7,7 +7,7 @@ const Advise = () => {
       <div className="grid grid-cols-1 md:grid-cols-2  gap-8">
         <div className="w-full">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.366412091347!2d107.59729791481308!3d16.456974088642415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a16ac7386f43%3A0xa1458e463715ff7a!2zMTk1IFBoYW4gxJDDrG5oIFBow7luZywgUGjDuiBOaHXhuq1uLCBUaMOgbmggcGjhu5EgSHXhur8sIFRo4burYSBUaGnDqm4gSHXhur8sIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1660465807103!5m2!1svi!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2226.3455705367032!2d107.60592281104553!3d16.463361426243473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a111843798b3%3A0xf201be35a88dc367!2sThe%20Manor%20Crown%20Hu%E1%BA%BF!5e0!3m2!1svi!2s!4v1661092435608!5m2!1svi!2s"
             title="map"
             className="w-full h-[300px]"
             frameBorder="0"
