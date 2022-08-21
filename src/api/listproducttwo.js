@@ -31,165 +31,165 @@ export const project = [
   //     slug: "dvn-01",
   //     Introduce: "",
   //   },
-  {
-    id: 2,
-    image:
-      "https://nhadatvui.vn/uploads/images/medium/ab862988251b5100fe07ff46715baffe.jpg",
-    thumbnail: [
-      {
-        id: 1,
-        thumbnail: "",
-      },
-      {
-        id: 2,
-        thumbnail: "",
-      },
-      {
-        id: 3,
-        thumbnail: "",
-      },
-    ],
-    title: "Bán đất nền Kiêt Dương Thiệu Tước-Thủy dương- Hương Thuỷ",
-    address: "Kiêt Dương Thiệu Tước-Thủy dương- Hương Thuỷ",
-    price: {
-      value: 1.35,
-      current: "Tỷ",
-    },
-    infoProject: {
-      area: 81.2,
-      street: 2,
-      direction: "TN",
-    },
-    slug: "dvn-02",
-    Introduce: "",
-  },
-  {
-    id: 3,
-    image:
-      "	https://nhadatvui.vn/uploads/images/medium/6bd885dc9847a82baa6f14e24d387553.jpg",
-    thumbnail: [
-      {
-        id: 1,
-        thumbnail: "",
-      },
-      {
-        id: 2,
-        thumbnail: "",
-      },
-      {
-        id: 3,
-        thumbnail: "",
-      },
-    ],
-    title: "Bán đất Kiệt 111 Đặng Văn Ngữ- Huế",
-    address: "Kiệt 111 Đặng Văn Ngữ- Huế",
-    price: {
-      value: 4.6,
-      current: "Tỷ",
-    },
-    infoProject: {
-      area: 108,
-      street: 4.7,
-      direction: "T",
-    },
-    slug: "dvn-03",
-    Introduce: "",
-  },
-  {
-    id: 4,
-    image:
-      "https://nhadatvui.vn/uploads/images/medium/ab862988251b5100fe07ff46715baffe.jpg",
-    thumbnail: [
-      {
-        id: 1,
-        thumbnail: "",
-      },
-      {
-        id: 2,
-        thumbnail: "",
-      },
-      {
-        id: 3,
-        thumbnail: "",
-      },
-    ],
-    title: "Bán đất 110 Phan Bội Châu- Phường Trường An- TP Huế",
-    address: "110 Phan Bội Châu- Phường Trường An- TP Huế",
-    price: {
-      value: 7.6323,
-      current: "Tỷ",
-    },
-    infoProject: {
-      area: 195.7,
-      street: 10,
-      direction: "ĐN",
-    },
-    slug: "dvn-04",
-    Introduce: "",
-  },
-  {
-    id: 5,
-    image:
-      "	https://nhadatvui.vn/uploads/images/medium/6bd885dc9847a82baa6f14e24d387553.jpg",
-    thumbnail: [
-      {
-        id: 1,
-        thumbnail: "",
-      },
-      {
-        id: 2,
-        thumbnail: "",
-      },
-      {
-        id: 3,
-        thumbnail: "",
-      },
-    ],
-    title: "Bán đất Phường đúc huế",
-    address: "41/15B Lịch Đợi - Phường Đúc- Huế",
-    price: {
-      value: 3,
-      current: "Tỷ",
-    },
-    infoProject: {
-      area: 138,
-      street: 3.4,
-      direction: "N",
-    },
-    slug: "dvn-05",
-    Introduce: "",
-  },
-  {
-    id: 6,
-    image: "",
-    thumbnail: [
-      {
-        id: 1,
-        thumbnail: "",
-      },
-      {
-        id: 2,
-        thumbnail: "",
-      },
-      {
-        id: 3,
-        thumbnail: "",
-      },
-    ],
-    title: "Bán đất khu vực phương an đông ",
-    address: "Tổ 5 - KV2 - P.An Đông Huế",
-    price: {
-      value: 3.675,
-      current: "Tỷ",
-    },
-    infoProject: {
-      area: 147,
-      street: 3.5,
-      direction: "T",
-    },
-    slug: "pad-06",
-    Introduce: "",
-  },
+  // {
+  //   id: 2,
+  //   image:
+  //     "https://nhadatvui.vn/uploads/images/medium/ab862988251b5100fe07ff46715baffe.jpg",
+  //   thumbnail: [
+  //     {
+  //       id: 1,
+  //       thumbnail: "",
+  //     },
+  //     {
+  //       id: 2,
+  //       thumbnail: "",
+  //     },
+  //     {
+  //       id: 3,
+  //       thumbnail: "",
+  //     },
+  //   ],
+  //   title: "Bán đất nền Kiêt Dương Thiệu Tước-Thủy dương- Hương Thuỷ",
+  //   address: "Kiêt Dương Thiệu Tước-Thủy dương- Hương Thuỷ",
+  //   price: {
+  //     value: 1.35,
+  //     current: "Tỷ",
+  //   },
+  //   infoProject: {
+  //     area: 81.2,
+  //     street: 2,
+  //     direction: "TN",
+  //   },
+  //   slug: "dvn-02",
+  //   Introduce: "",
+  // },
+  // {
+  //   id: 3,
+  //   image:
+  //     "	https://nhadatvui.vn/uploads/images/medium/6bd885dc9847a82baa6f14e24d387553.jpg",
+  //   thumbnail: [
+  //     {
+  //       id: 1,
+  //       thumbnail: "",
+  //     },
+  //     {
+  //       id: 2,
+  //       thumbnail: "",
+  //     },
+  //     {
+  //       id: 3,
+  //       thumbnail: "",
+  //     },
+  //   ],
+  //   title: "Bán đất Kiệt 111 Đặng Văn Ngữ- Huế",
+  //   address: "Kiệt 111 Đặng Văn Ngữ- Huế",
+  //   price: {
+  //     value: 4.6,
+  //     current: "Tỷ",
+  //   },
+  //   infoProject: {
+  //     area: 108,
+  //     street: 4.7,
+  //     direction: "T",
+  //   },
+  //   slug: "dvn-03",
+  //   Introduce: "",
+  // },
+  // {
+  //   id: 4,
+  //   image:
+  //     "https://nhadatvui.vn/uploads/images/medium/ab862988251b5100fe07ff46715baffe.jpg",
+  //   thumbnail: [
+  //     {
+  //       id: 1,
+  //       thumbnail: "",
+  //     },
+  //     {
+  //       id: 2,
+  //       thumbnail: "",
+  //     },
+  //     {
+  //       id: 3,
+  //       thumbnail: "",
+  //     },
+  //   ],
+  //   title: "Bán đất 110 Phan Bội Châu- Phường Trường An- TP Huế",
+  //   address: "110 Phan Bội Châu- Phường Trường An- TP Huế",
+  //   price: {
+  //     value: 7.6323,
+  //     current: "Tỷ",
+  //   },
+  //   infoProject: {
+  //     area: 195.7,
+  //     street: 10,
+  //     direction: "ĐN",
+  //   },
+  //   slug: "dvn-04",
+  //   Introduce: "",
+  // },
+  // {
+  //   id: 5,
+  //   image:
+  //     "	https://nhadatvui.vn/uploads/images/medium/6bd885dc9847a82baa6f14e24d387553.jpg",
+  //   thumbnail: [
+  //     {
+  //       id: 1,
+  //       thumbnail: "",
+  //     },
+  //     {
+  //       id: 2,
+  //       thumbnail: "",
+  //     },
+  //     {
+  //       id: 3,
+  //       thumbnail: "",
+  //     },
+  //   ],
+  //   title: "Bán đất Phường đúc huế",
+  //   address: "41/15B Lịch Đợi - Phường Đúc- Huế",
+  //   price: {
+  //     value: 3,
+  //     current: "Tỷ",
+  //   },
+  //   infoProject: {
+  //     area: 138,
+  //     street: 3.4,
+  //     direction: "N",
+  //   },
+  //   slug: "dvn-05",
+  //   Introduce: "",
+  // },
+  // {
+  //   id: 6,
+  //   image: "",
+  //   thumbnail: [
+  //     {
+  //       id: 1,
+  //       thumbnail: "",
+  //     },
+  //     {
+  //       id: 2,
+  //       thumbnail: "",
+  //     },
+  //     {
+  //       id: 3,
+  //       thumbnail: "",
+  //     },
+  //   ],
+  //   title: "Bán đất khu vực phương an đông ",
+  //   address: "Tổ 5 - KV2 - P.An Đông Huế",
+  //   price: {
+  //     value: 3.675,
+  //     current: "Tỷ",
+  //   },
+  //   infoProject: {
+  //     area: 147,
+  //     street: 3.5,
+  //     direction: "T",
+  //   },
+  //   slug: "pad-06",
+  //   Introduce: "",
+  // },
   {
     id: 7,
     image: "",

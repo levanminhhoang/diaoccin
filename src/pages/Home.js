@@ -7,7 +7,7 @@ import { apiJob } from "../api/projectJob";
 import Advise from "../components/Advise.js";
 import InformationBranch from "../components/InformationBranch";
 import { posts } from "../api/listpost";
-import { BlogItem } from "./Blog";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -34,13 +34,13 @@ const Home = () => {
         </div>
       </div>
       <Section />
-      <div className="my-10 flex md:gap-10 md:flex-row flex-col gap-5 w-full max-w-[1170px] px-[10px] md:px-4 lg:px-5 mx-auto font-base mt-10 mb-20">
-        <div className="md:basis-[70%] w-full flex flex-col">
+      <div className="my-10 flex md:gap-10 md:flex-row flex-col gap-5 w-full max-w-[1170px] px-[10px] md:px-4 lg:px-5 mx-auto font-base  mb-20">
+        <div className=" w-full flex flex-col">
           <h2 className="text-2xl font-medium py-1 border-[#333] border-b ">
             Tin tức
           </h2>
-          <div className="grid grid-cols-1 gap-5 mt-5">
-            {posts.slice(0, 2).map((item, index) => (
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mt-5">
+            {posts.slice(0, 4).map((item, index) => (
               <BlogItem item={item} key={index} />
             ))}
           </div>
@@ -51,3 +51,27 @@ const Home = () => {
   );
 };
 export default Home;
+
+function BlogItem({ item }) {
+  return (
+    <Link to={`/${item?.slug}`} className="flex gap-3 flex-col md:flex-row">
+      <div
+        className={`relative md:basis-6/12 w-full max-w-[300px] min-h-[165px] `}
+      >
+        <img
+          src={item?.image}
+          alt=""
+          className={`w-full h-full object-cover absolute inset-0 `}
+        />
+      </div>
+      <div className="py-1 md:basis-8/12">
+        <span className="text-[#242933] font-medium text-lg text__over-1">
+          {item?.title}
+        </span>
+        <span className="text-[#5d5c56] font-[100] text-base text__over-3 indent-2">
+          {item?.subTitle}
+        </span>
+      </div>
+    </Link>
+  );
+}

@@ -1,6 +1,13 @@
 import { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
+import PostFive from "./pages/Post.js/PostFive";
+import PostFor from "./pages/Post.js/PostFor";
 
+import Post1 from "./pages/Post.js/PostOne";
+import PostThere from "./pages/Post.js/PostThere";
+import PostTwo from "./pages/Post.js/PostTwo";
+
+//
 const BlogDetail = lazy(() => import("./pages/BlogDetail"));
 const Login = lazy(() => import("./pages/Login"));
 const Job = lazy(() => import("./pages/Job"));
@@ -34,6 +41,12 @@ function App() {
           <Route path="/bai-viet/:slug" element={<BlogDetail />} />
           <Route path="/nha-dat" element={<Job />} />
           <Route path="/nha-dat/:slug" element={<JobDetails />} />
+
+          <Route path="/post-one" element={<Post1 />} />
+          <Route path="/post-two" element={<PostTwo />} />
+          <Route path="/post-there" element={<PostThere />} />
+          <Route path="/post-five" element={<PostFive />} />
+          <Route path="/post-for" element={<PostFor />} />
 
           <Route path="/login" element={<Login />} />
         </Route>
