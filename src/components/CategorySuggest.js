@@ -1,5 +1,5 @@
 import React from "react";
-import { suggest } from "../api/suggest";
+
 const CategorySuggest = () => {
   return (
     <div className="w-full max-w-[1170px] mx-auto px-[10px] md:px-4 lg:px-5 xl:px-8 mt-10 mb-5  items-center justify-between grid grid-cols-3 gap-2 lg:grid-cols-5">
@@ -22,4 +22,31 @@ const CategorySuggest = () => {
   );
 };
 
+const suggest = [
+  {
+    image: "/a.jpg",
+    slug: "",
+    content: "Bán Nhà",
+  },
+  {
+    image: "/b.jpg",
+    slug: "",
+    content: "Mua Căn Hộ",
+  },
+  {
+    image: "/c.jpg",
+    slug: "",
+    content: "Mua Đất",
+  },
+  {
+    image: "/d.jpg",
+    slug: "",
+    content: "Mua Nhà",
+  },
+  {
+    image: "/e.jpg",
+    slug: "",
+    content: "Thuê Nhà",
+  },
+];
 export default CategorySuggest;

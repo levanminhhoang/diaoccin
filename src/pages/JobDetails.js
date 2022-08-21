@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import { useParams } from "react-router-dom";
+import { jobCityLand } from "../api/jobCityLand";
 const JobDetails = () => {
   const { slug } = useParams();
-  console.log(slug);
+  const [product, setProduct] = useState({});
+  useEffect(() => {
+    const data = jobCityLand.filter((item) => item.slug == slug);
+    setProduct(...data);
+  }, [jobCityLand]);
 
   const iconOne = [
     {
@@ -57,6 +62,8 @@ const JobDetails = () => {
       current: "",
     },
   ];
+  const images = product?.thumbnail;
+  console.log(product);
   return (
     <div className="w-full max-w-[1170px] mx-auto my-10 px-[10px] md:px-4 lg:px-5 flex flex-col">
       <Breadcrumb breadTitle="Nhà đất" />
@@ -64,31 +71,28 @@ const JobDetails = () => {
         <div className="grid image-job gap-6">
           <div className="w-full  image-job-item">
             <img
-              src="	https://nhadatvui.vn/uploads/images/6bd885dc9847a82baa6f14e24d387553.jpg"
-              className="w-full  object-cover rounded-lg"
+              src={product?.image}
+              className="w-full h-full  object-cover rounded-lg"
               alt=""
             />
           </div>
-          <div className="w-full flex flex-col  images-small-show">
-            <img
-              src="https://nhadatvui.vn/uploads/images/1937e37d58757f0c2d35f79329d4c2d1.jpg"
-              className="w-full object-cover h-full "
-              alt=""
-            />
-          </div>
-          <div className="w-full flex flex-col  images-small-show">
-            <img
-              src="https://nhadatvui.vn/uploads/images/e048d4f145d11d11fec2f3c22dc11f99.jpg"
-              className="w-full object-cover h-full "
-              alt=""
-            />
-          </div>
+          {images &&
+            images.slice(0, 2).map((item) => (
+              <div className="w-full flex flex-col  images-small-show">
+                <img
+                  src={
+                    item?.thumbnail ||
+                    "https://nhadatvui.vn/uploads/images/e048d4f145d11d11fec2f3c22dc11f99.jpg"
+                  }
+                  className="w-full object-cover h-full "
+                  alt=""
+                />
+              </div>
+            ))}
         </div>
         <div className="flex flex-col md:flex-row  gap-6 mt-5">
           <div className="w-full flex flex-col  gap-2 md:basis-[71%]">
-            <h3 className="text-xl font-bold">
-              Bán căn hộ chung cư Linh Tây 155m2, 3PN, đã có sổ hồng
-            </h3>
+            <h3 className="text-xl font-bold">{product?.title}</h3>
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <img
@@ -96,9 +100,7 @@ const JobDetails = () => {
                   className="w-[18px] h-[18px] object-cover"
                   alt=""
                 />
-                <span className="text-base font-[100]">
-                  Đường D1, Phường Linh Tây, TP. Thủ Đức, TP. Hồ Chí Minh
-                </span>
+                <span className="text-base font-[100]">{product?.address}</span>
               </div>
               <button className="border btn-mobile border-d py-[5px] px-4 text-d rounded-xl">
                 xem bản đồ
@@ -107,10 +109,10 @@ const JobDetails = () => {
             <div className="flex items-center justify-between pr-5">
               <div className="flex items-center gap-3">
                 <div className="flex items-center font-bold text-f text-xl">
-                  3.98 tỷ
+                  {product?.price?.value} {product?.price?.current}
                 </div>
                 <span className="font-normal text-h text-[13px] mt-1">
-                  25.68 triệu/m²
+                  đang cập nhật
                 </span>
               </div>
               <div className="flex items-center gap-4">
@@ -120,7 +122,7 @@ const JobDetails = () => {
                 </div>
                 <div className="flex items-center text-sm item-sc">
                   <span className=" font-medium mr-1">Hết hạn:</span>
-                  <span className="text-h">31/08/2022</span>
+                  <span className="text-h">31/08/2023</span>
                 </div>
               </div>
             </div>

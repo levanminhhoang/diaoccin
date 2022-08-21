@@ -6,6 +6,7 @@ import "swiper/scss";
 import ProductItem from "./ProductItem";
 
 import { project } from "../api/listproduct";
+import { jobCityLand } from "../api/jobCityLand";
 const Section = ({ title = "Nhà đất bán mới nhất", data: productSaler }) => {
   return (
     <div className=" w-full max-w-[1170px] mx-auto px-[10px] md:px-4 lg:px-5 xl:px-8 mt-10 mb-10 lg:mb-20">
@@ -50,8 +51,8 @@ const Section = ({ title = "Nhà đất bán mới nhất", data: productSaler }
             },
           }}
         >
-          {project.length > 0 &&
-            project.slice(0, 10).map((item, index) => (
+          {jobCityLand.length > 0 &&
+            jobCityLand.slice(0, 10).map((item, index) => (
               <SwiperSlide key={index}>
                 <ProductItem item={item} />
               </SwiperSlide>

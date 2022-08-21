@@ -6,6 +6,8 @@ import Section from "../components/Section";
 import { apiJob } from "../api/projectJob";
 import Advise from "../components/Advise.js";
 import InformationBranch from "../components/InformationBranch";
+import { posts } from "../api/listpost";
+import { BlogItem } from "./Blog";
 
 const Home = () => {
   return (
@@ -32,6 +34,18 @@ const Home = () => {
         </div>
       </div>
       <Section />
+      <div className="my-10 flex md:gap-10 md:flex-row flex-col gap-5 w-full max-w-[1170px] px-[10px] md:px-4 lg:px-5 mx-auto font-base mt-10 mb-20">
+        <div className="md:basis-[70%] w-full flex flex-col">
+          <h2 className="text-2xl font-medium py-1 border-[#333] border-b ">
+            Tin tức
+          </h2>
+          <div className="grid grid-cols-1 gap-5 mt-5">
+            {posts.slice(0, 2).map((item, index) => (
+              <BlogItem item={item} key={index} />
+            ))}
+          </div>
+        </div>
+      </div>
       <Advise />
     </div>
   );

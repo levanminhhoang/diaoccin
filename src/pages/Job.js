@@ -5,7 +5,7 @@ import ProductItem from "../components/ProductItem";
 
 const Job = () => {
   return (
-    <div className="w-full max-w-[1170px] mx-auto my-10 px-[10px] md:px-4 lg:px-5 flex flex-col">
+    <div className="w-full max-w-[1170px] mx-auto my-10 px-[10px] md:px-4 lg:px-5 flex flex-col min-h-[700px]">
       <Breadcrumb breadTitle="Nhà đất" />
       <div className="flex my-2">
         <h2 className="text-2xl font-medium text-h">

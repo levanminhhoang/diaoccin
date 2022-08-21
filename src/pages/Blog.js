@@ -24,7 +24,7 @@ const Blog = () => {
   );
 };
 
-function BlogItem({ item }) {
+export function BlogItem({ item }) {
   const navigate = useNavigate();
   return (
     <div

@@ -1,26 +1,26 @@
 export const suggest = [
   {
-    image: "/icon/ban-nha.jpg",
+    image: "/a.jpg",
     slug: "",
     content: "Bán Nhà",
   },
   {
-    image: "/icon/mua-can-ho.jpg",
+    image: "/b.jpg",
     slug: "",
     content: "Mua Căn Hộ",
   },
   {
-    image: "/icon/mua-dat.jpg",
+    image: "/c.jpg",
     slug: "",
     content: "Mua Đất",
   },
   {
-    image: "/icon/mua-nha.jpg",
+    image: "/d.jpg",
     slug: "",
     content: "Mua Nhà",
   },
   {
-    image: "/icon/thue-nha.jpg",
+    image: "/e.jpg",
     slug: "",
     content: "Thuê Nhà",
   },
