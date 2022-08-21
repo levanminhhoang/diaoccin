@@ -6,6 +6,7 @@ import "swiper/scss";
 import ProductItem from "./ProductItem";
 
 import { project } from "../api/listproduct";
+import { jobCityLand } from "../api/jobCityLand";
 const Section = ({ title = "Nhà đất bán mới nhất", data: productSaler }) => {
   return (
     <div className=" w-full max-w-[1170px] mx-auto px-[10px] md:px-4 lg:px-5 xl:px-8 mt-10 mb-10 lg:mb-20">
@@ -50,8 +51,8 @@ const Section = ({ title = "Nhà đất bán mới nhất", data: productSaler }
             },
           }}
         >
-          {project.length > 0 &&
-            project.map((item, index) => (
+          {jobCityLand.length > 0 &&
+            jobCityLand.slice(0, 10).map((item, index) => (
               <SwiperSlide key={index}>
                 <ProductItem item={item} />
               </SwiperSlide>
@@ -63,23 +64,3 @@ const Section = ({ title = "Nhà đất bán mới nhất", data: productSaler }
 };
 
 export default Section;
-
-// export const Section2 = ({
-//   title = "Nhà đất bán mới nhất",
-//   data: productSaler,
-// }) => {
-//   return (
-//     <div className=" w-full max-w-[1280px] mx-auto px-[10px] md:px-4 lg:px-5 xl:px-8 mt-10">
-//       <div className="flex items-center justify-between">
-//         <h2 className="text-center text-xl font-bold text-b ">{title}</h2>
-//         <button className="bg-[#fff] border border-[#000] rounded-sm px-4 py-1">
-//           Xem tất cả
-//         </button>
-//       </div>
-//       <div className=" py-5 grid grid-cols-2 md:grid-cols-4 gap-5 lg:gap-10">
-//         {project.length > 0 &&
-//           project.map((item, index) => <ProductItem key={index} item={item} />)}
-//       </div>
-//     </div>
-//   );
-// };

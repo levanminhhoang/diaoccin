@@ -20,7 +20,7 @@ const ProductItemOne = ({ item, trys }) => {
     <div className="flex flex-col border border-[#ddd]">
       <div className="relative pt-[66%]">
         <img
-          src="https://nhadatvui.vn/uploads/images/1cbda236291c31c7262eebdd01895a44.jpg"
+          src={item?.image}
           alt=""
           className="absolute inset-0 w-full h-full object-cover"
         />

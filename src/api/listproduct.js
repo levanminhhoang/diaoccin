@@ -17,7 +17,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "Bán đất Kiệt Đặng Văn Ngữ Thành Phố Huế",
     address: "Kiệt Đặng Văn Ngữ- Huế",
     price: {
       value: 3.4,
@@ -28,7 +28,7 @@ export const project = [
       street: 3,
       direction: "ĐB",
     },
-    slug: "",
+    slug: "dvn-01",
     Introduce: "",
     //không có ảnh
   },
@@ -50,7 +50,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "Bán đất nền Kiêt Dương Thiệu Tước-Thủy dương- Hương Thuỷ",
     address: "Kiêt Dương Thiệu Tước-Thủy dương- Hương Thuỷ",
     price: {
       value: 1.35,
@@ -61,7 +61,7 @@ export const project = [
       street: 2,
       direction: "TN",
     },
-    slug: "",
+    slug: "dvn-02",
     Introduce: "",
     //không có ảnh
   },
@@ -83,7 +83,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "Bán đất Kiệt 111 Đặng Văn Ngữ- Huế",
     address: "Kiệt 111 Đặng Văn Ngữ- Huế",
     price: {
       value: 4.6,
@@ -94,7 +94,7 @@ export const project = [
       street: 4.7,
       direction: "T",
     },
-    slug: "",
+    slug: "dvn-03",
     Introduce: "",
     //không có ảnh
   },
@@ -115,7 +115,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "Bán đất 110 Phan Bội Châu- Phường Trường An- TP Huế",
     address: "110 Phan Bội Châu- Phường Trường An- TP Huế",
     price: {
       value: 7.6323,
@@ -126,7 +126,7 @@ export const project = [
       street: 10,
       direction: "ĐN",
     },
-    slug: "",
+    slug: "dvn-04",
     Introduce: "",
   },
   {
@@ -146,7 +146,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "Bán đất Phường đúc huế",
     address: "41/15B Lịch Đợi - Phường Đúc- Huế",
     price: {
       value: 3,
@@ -157,7 +157,7 @@ export const project = [
       street: 3.4,
       direction: "N",
     },
-    slug: "",
+    slug: "dvn-05",
     Introduce: "",
   },
   {
@@ -177,7 +177,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "Bán đất khu vực phương an đông ",
     address: "Tổ 5 - KV2 - P.An Đông Huế",
     price: {
       value: 3.675,
@@ -188,7 +188,7 @@ export const project = [
       street: 3.5,
       direction: "T",
     },
-    slug: "",
+    slug: "pad-06",
     Introduce: "",
     //không có ảnh
   },
@@ -209,7 +209,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "Bán đất đường bà triệu",
     address: "69/2 Bà Triệu- P.Phú Hội-TP Huế",
     price: {
       // value: 3.675,
@@ -220,7 +220,7 @@ export const project = [
       street: 5.2,
       direction: "N",
     },
-    slug: "",
+    slug: "bt-07",
     Introduce: "",
   },
   {
@@ -240,8 +240,8 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
-    address: "Tổ 10- KV4-P.Thuỷ Xuân-Huế",
+    title: "bán đất phường thủy xuân",
+    address: "Tổ 10- KV4-P.Thuỷ Xuân thành phố Huế",
     price: {
       value: 2.1,
       current: "Tỷ",
@@ -251,7 +251,7 @@ export const project = [
       street: 3.65,
       direction: "TN",
     },
-    slug: "",
+    slug: "tx-08",
     Introduce: "",
   },
   {
@@ -271,7 +271,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "bán đất kv4 phường thủy xuân Thành Phố huế",
     address: "Tổ 10- KV4-P.Thuỷ Xuân-Huế",
     price: {
       value: 2.3,
@@ -282,7 +282,7 @@ export const project = [
       street: 3.86,
       direction: "TN",
     },
-    slug: "",
+    slug: "tx-09",
     Introduce: "",
   },
   {
@@ -302,7 +302,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "Bán đất phú thượng thành phố huế",
     address: "TDP Ngọc Anh- Phú Thượng Huế",
     price: {
       value: 2.75,
@@ -313,7 +313,7 @@ export const project = [
       street: 7.5,
       direction: "ĐB",
     },
-    slug: "",
+    slug: "tp-10",
     Introduce: "",
   },
   {
@@ -333,7 +333,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "bán đất phú khê",
     address: "Thôn Phú Khê- Phú Dương TP Huế",
     price: {
       value: 1.35,
@@ -344,7 +344,7 @@ export const project = [
       street: 3,
       direction: "B",
     },
-    slug: "",
+    slug: "pk-11",
     Introduce: "",
     //không có ảnh
   },
@@ -365,7 +365,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "Bán đất thủy bằng Thành phố huế",
     address: "Xã Thuỷ Bằng- Tp Huế",
     price: {
       value: 4.167,
@@ -376,7 +376,7 @@ export const project = [
       street: 3,
       direction: "TB",
     },
-    slug: "",
+    slug: "tb-12",
     Introduce: "",
   },
   {
@@ -396,7 +396,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "bán đất xã thủy bằng kv2",
     address: "Xã Thuỷ Bằng- Tp Huế",
     price: {
       value: 2.478,
@@ -407,7 +407,7 @@ export const project = [
       street: 3,
       direction: "ĐB",
     },
-    slug: "",
+    slug: "tb-13",
     Introduce: "",
   },
   {
@@ -427,7 +427,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "bán đất xã vĩnh lộc",
     address: "Xã Lộc Vĩnh - Phú Lộc ",
     price: {
       value: 3.3,
@@ -438,7 +438,7 @@ export const project = [
       street: 6.4,
       // direction: "ĐB",
     },
-    slug: "",
+    slug: "vl-14",
     Introduce: "",
     //không có ảnh
   },
@@ -459,7 +459,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "đất thị xã hương thủy",
     address: "Thị Xã Hương Thuỷ ",
     price: {
       value: 920,
@@ -470,7 +470,7 @@ export const project = [
       street: 4.12,
       // direction: "ĐB",
     },
-    slug: "",
+    slug: "ht-15",
     Introduce: "",
     //không có ảnh
   },
@@ -491,7 +491,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "bán dất khu vực lộc sơn",
     address: "Khu tái định cư Lộc Sơn-Phú Lộc",
     price: {
       value: 1.5,
@@ -502,7 +502,7 @@ export const project = [
       street: 11.5,
       // direction: "ĐB",
     },
-    slug: "",
+    slug: "ls-16",
     Introduce: "",
     //không có ảnh
   },
@@ -523,7 +523,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "bán đất thôn thuận hóa",
     address: "Thôn Thuận Hoá-Lộc Bổn-Phú Lộc",
     price: {
       value: 1.1,
@@ -535,7 +535,7 @@ export const project = [
       // direction: "ĐB",
       //không có ảnh
     },
-    slug: "",
+    slug: "th-17",
     Introduce: "",
   },
   {
@@ -555,7 +555,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "bán đất khu vực án tây",
     address: "TỔ 10- P.An Tây TP.Huế",
     price: {
       value: 6.7116,
@@ -566,7 +566,7 @@ export const project = [
       street: 3,
       direction: "T",
     },
-    slug: "",
+    slug: "an-18",
     Introduce: "",
   },
   {
@@ -586,7 +586,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "đất khu vực an đông thành phố huế",
     address: "Tổ 5 KV2- P.An Đông TP Huế",
     price: {
       value: 7.5,
@@ -597,7 +597,7 @@ export const project = [
       street: 3,
       direction: "N",
     },
-    slug: "",
+    slug: "ad-19",
     Introduce: "",
   },
   {
@@ -617,7 +617,7 @@ export const project = [
         thumbnail: "",
       },
     ],
-    title: "",
+    title: "đất thủy vân thành phố huế",
     address: "Dạ Lê Chánh - Thủy Vân TP HUẾ",
     price: {
       value: 1.45,
@@ -628,7 +628,7 @@ export const project = [
       street: 3.2,
       direction: "TB",
     },
-    slug: "",
+    slug: "tv-tp-20",
     Introduce: "",
     //không có ảnh
   },
