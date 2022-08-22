@@ -93,7 +93,7 @@ const HeaderBottom = () => {
           Tin Tức
         </NavLink>
         <NavLink
-          to="/thanh-toan"
+          to="/"
           onClick={() => setShow(false)}
           className={"hidden sm:block"}
         >

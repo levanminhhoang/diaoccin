@@ -1,5 +1,67 @@
 export const project = [
   {
+    id: 46,
+    image: "/nga1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/nga2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/nga3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN Nhà Nhà 2 tầng kiệt ô tô Phan Bội Châu",
+    address: "Phan Bội Châu - Huế",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 48.2,
+      street: 1,
+      direction: "ĐN",
+    },
+    slug: "bp-0s3vv",
+    Introduce: "bán đât kiệt trần phú",
+  },
+  {
+    id: 46,
+    image: "/adu1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/adu2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/adu3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN Nhà 2 Tầng full nội thất",
+    address: "31 xóm gióng, phường An Tây, Phan Bội Châu - Huế",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 40.5,
+      street: 1,
+      direction: "ĐN",
+    },
+    slug: "bp-0s3",
+    Introduce: "bán đât kiệt trần phú",
+  },
+  {
     id: 4,
     image: "/nhatp/aphinh.jpg",
     thumbnail: [
@@ -29,6 +91,38 @@ export const project = [
     },
     slug: "hv-04",
     Introduce: "",
+    //không có ảnh
+  },
+  {
+    id: 38,
+    image: "/nu3.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/nu2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/nu1.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN NHÀ Nhà kiệt 273 Trưng Nữ Vương (Tặng kèm nội thất toàn bộ)",
+    address: "kiệt 273 Trưng Nữ Vương Huế",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 88.5,
+      street: 1,
+      direction: "ĐN",
+    },
+    slug: "tnv-1",
+    Introduce: "bán đât kiệt trần phú",
     //không có ảnh
   },
   {
@@ -1080,4 +1174,707 @@ export const project = [
     Introduce: "bán đât kiệt trần phú",
     //không có ảnh
   },
+  {
+    id: 31,
+    image: "/quang1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/quang2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/quang3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN ĐẤT TẠI GIÁP ĐÔNG HƯƠNG TOÀN HƯƠNG TRÀ",
+    address: "Giáp Đông, Xã Hương toàn, Hương trà TT Huế",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 99.7,
+      street: 2,
+      direction: "ĐB",
+    },
+    slug: "gd-3",
+    Introduce: "bán đât kiệt trần phú",
+    //không có ảnh
+  },
+  {
+    id: 32,
+    image: "/than1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/than2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/than3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN ÂN ĐÔ PHƯỜNG HƯƠNG CHỮ",
+    address: "Ân đô Phương Hương Chữ TT Huế",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 102.2,
+      street: 2,
+      direction: "ĐB",
+    },
+    slug: "gd-3",
+    Introduce: "bán đât kiệt trần phú",
+    //không có ảnh
+  },
+  {
+    id: 33,
+    image: "/aduc1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/aduc2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/aduc3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN Lô Góc mặt tiền Lê Thái Tông TDP 8- P.Tứ Hạ-",
+    address: "Lê Thái Tông TDP 8- P.Tứ Hạ",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 248.6,
+      street: 2,
+      direction: "ĐB",
+    },
+    slug: "th2-3",
+    Introduce: "bán đât kiệt trần phú",
+    //không có ảnh
+  },
+  {
+    id: 35,
+    image: "/ahung1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/ahung2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/ahung3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN Lô ĐẤT Dương Thiệu Tước - Thủy Phương - Thị xã Hương thủy",
+    address: "Dương Thiệu Tước - Thủy Phương - Thị xã Hương thủy",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 150,
+      street: 2,
+      direction: "ĐN",
+    },
+    slug: "th2cs-3",
+    Introduce: "bán đât kiệt trần phú",
+    //không có ảnh
+  },
+  {
+    id: 36,
+    image: "/anam1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/anam2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/anam3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN NHÀ Thị Trấn Phú Lộc",
+    address: "Thị Trấn Phú Lộc",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 203,
+      street: 1,
+      direction: "ĐN",
+    },
+    slug: "pls-3",
+    Introduce: "bán đât kiệt trần phú",
+    //không có ảnh
+  },
+  {
+    id: 36,
+    image: "/gym1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/gym1.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/gym1.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN NHÀ Kiệt Nam Cao Tổ 09 - P.Phú Bài",
+    address: "Kiệt Nam Cao Tổ 09 - P.Phú Bài",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 150.7,
+      street: 1,
+      direction: "ĐN",
+    },
+    slug: "nks1-3",
+    Introduce: "bán đât kiệt trần phú",
+    //không có ảnh
+  },
+  {
+    id: 37,
+    image: "/kh1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/kh2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/kh3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN NHÀ Tổ 12- P.Thuỷ Dương",
+    address: "Tổ 12- P.Thuỷ Dương",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 1644.5,
+      street: 1,
+      direction: "ĐB",
+    },
+    slug: "nkbxs-3",
+    Introduce: "bán đât kiệt trần phú",
+    //không có ảnh
+  },
+  {
+    id: 38,
+    image: "/di1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/di2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/di1.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN NHÀ Mặt tiền Nguyễn Khoa Chiêm, Tổ 12- P.Phú Bài",
+    address: "Nguyễn Khoa Chiêm, Tổ 12- P.Phú Bài",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 306.8,
+      street: 1,
+      direction: "ĐB",
+    },
+    slug: "nkas-3",
+    Introduce: "bán đât kiệt trần phú",
+    //không có ảnh
+  },
+  {
+    id: 38,
+    image: "/giang1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/giang2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/giang3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN NHÀ Mặt tiền  Ngô Thế Vinh, P.Thuỷ Phương- Hương Thuỷ",
+    address: " Ngô Thế Vinh, P.Thuỷ Phương- Hương Thuỷ",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 210.5,
+      street: 1,
+      direction: "ĐB",
+    },
+    slug: "nkss-3c",
+    Introduce: "bán đât kiệt trần phú",
+    //không có ảnh
+  },
+  {
+    id: 40,
+    image: "/athang1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/athang2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/athang3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN NHÀ Mặt tiền Đất quy hoạch, Tổ 13- Phường Thuỷ Phương",
+    address: "Đất quy hoạch, Tổ 13- Phường Thuỷ Phương",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 400,
+      street: 1,
+      direction: "ĐB",
+    },
+    slug: "nkcs-3s",
+    Introduce: "bán đât kiệt trần phú",
+    //không có ảnh
+  },
+  {
+    id: 41,
+    image: "/phuc1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/phuc2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/phuc3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN NHÀ Mặt tiền đường Đinh Lễ, Tổ 7-  P.Phú Bài- Hương Thuỷ",
+    address: " đường Đinh Lễ, Tổ 7-  P.Phú Bài- Hương Thuỷ",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 109.7,
+      street: 1,
+      direction: "ĐB",
+    },
+    slug: "nks-331j",
+    Introduce: "bán đât kiệt trần phú",
+    //không có ảnh
+  },
+  {
+    id: 41,
+    image: "/anguyen1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/anguyen2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/anguyen3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title:
+      "BÁN NHÀ Khu quy hoạch trạm bơm Thủy Thanh (đường Hoàng Quốc Việt nối dài rộng 31m)",
+    address: "Khu quy hoạch trạm bơm Thủy Thanh",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 140,
+      street: 1,
+      direction: "ĐB",
+    },
+    slug: "abc-1",
+    Introduce: "bán đât kiệt trần phú",
+    //không có ảnh
+  },
+  {
+    id: 41,
+    image: "/cngoc1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/cngoc2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/cngoc3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN NHÀ Tổ 3 - P.Thuỷ Lương- Hương Thuỷ",
+    address: "Tổ 3 - P.Thuỷ Lương- Hương Thuỷ",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 65.7,
+      street: 1,
+      direction: "ĐB",
+    },
+    slug: "abc-1s",
+    Introduce: "bán đât kiệt trần phú",
+  },
+  {
+    id: 42,
+    image: "/a1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/a2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/a3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title:
+      "BÁN 2 lô mặt tiền kiệt 2,35 và 3,8m, Tổ 10- P.THuỷ Châu-TX Hương Thuỷ",
+    address: "Tổ 10- P.THuỷ Châu-TX Hương Thuỷ",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 96.1,
+      street: 1,
+      direction: "ĐB",
+    },
+    slug: "xn-c3",
+    Introduce: "bán đât kiệt trần phú",
+  },
+  {
+    id: 42,
+    image: "/the1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/the2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/the3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN 3 lô Phường Thuỷ Lương- TX Hương Thuỷ",
+    address: "Phường Thuỷ Lương- TX Hương Thuỷ",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 83.4,
+      street: 1,
+      direction: "ĐB",
+    },
+    slug: "xn-3c3",
+    Introduce: "bán đât kiệt trần phú",
+  },
+  {
+    id: 42,
+    image: "/hoan1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/hoan2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/hoan3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title:
+      "BÁN Nhà Đất kiệt ô tô phường Thủy Xuân TX Hương Thủy ( kiệt 45 Giáp Hải)",
+    address: "phường Thủy Xuân TX Hương Thủy",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 86.5,
+      street: 1,
+      direction: "ĐB",
+    },
+    slug: "xn-3s3cc",
+    Introduce: "bán đât kiệt trần phú",
+  },
+  {
+    id: 46,
+    image: "/hoan1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/hoan2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/hoan3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title:
+      "BÁN Nhà Đất kiệt ô tô phường Thủy Xuân TX Hương Thủy ( kiệt 45 Giáp Hải)",
+    address: "phường Thủy Xuân TX Hương Thủy",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 86.5,
+      street: 1,
+      direction: "ĐB",
+    },
+    slug: "xn-3s3c",
+    Introduce: "bán đât kiệt trần phú",
+  },
+  {
+    id: 46,
+    image: "/c1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "",
+      },
+      {
+        id: 2,
+        thumbnail: "",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title:
+      "BÁN Nhà Đất Phú Hồ - Phú Vang (đường 6m thông ra cầu ngói Thanh Toàn)",
+    address: "Phú Hồ - Phú Vang",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 100,
+      street: 1,
+      direction: "ĐN",
+    },
+    slug: "xnk-s",
+    Introduce: "bán đât kiệt trần phú",
+  },
+  {
+    id: 46,
+    image: "/nh1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/nh2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/nh3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title:
+      "BÁN Nhà gác lững thôn Hải Bình, thị trấn Thuận An (Mặt tiền kiệt cách biển thuận an 2 phút đi bộ)",
+    address: "thị trấn Thuận An",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 162,
+      street: 1,
+      direction: "ĐN",
+    },
+    slug: "bp-03",
+    Introduce: "bán đât kiệt trần phú",
+  },
+  {
+    id: 46,
+    image: "/hu1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/hu2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/hu3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN Nhà  thôn 6 Vinh Thanh - Phú Vang",
+    address: "thôn 6 Vinh Thanh - Phú Vang",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 200,
+      street: 1,
+      direction: "ĐN",
+    },
+    slug: "bp-0s3c",
+    Introduce: "bán đât kiệt trần phú",
+  },
+  {
+    id: 466,
+    image: "/avu1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/avu2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/avu3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title: "BÁN Nhà đẹp 4 tầng kiệt 266 điện biên phủ",
+    address: "kiệt 266 điện biên phủ",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 61.1,
+      street: 1,
+      direction: "ĐN",
+    },
+    slug: "bp-0s3cc",
+    Introduce: "bán đât kiệt trần phú",
+  },
+  {
+    id: 466,
+    image: "/ho1.jpg",
+    thumbnail: [
+      {
+        id: 1,
+        thumbnail: "/ho2.jpg",
+      },
+      {
+        id: 2,
+        thumbnail: "/ho3.jpg",
+      },
+      {
+        id: 3,
+        thumbnail: "",
+      },
+    ],
+    title:
+      "Bán nhà kiệt ô tô Bùi Thị Xuân  (thông ra KQH Phan Kế Bính - Hoài Thanh)",
+    address: "Bùi Thị Xuân Huế",
+    price: {
+      value: "Đang cập nhật",
+      current: "",
+    },
+    infoProject: {
+      area: 45,
+      street: 1,
+      direction: "ĐN",
+    },
+    slug: "bp-0s3cc",
+    Introduce: "bán đât kiệt trần phú",
+  },
 ];
+// Mặt tiền Ngô Thế Vinh, P.Thuỷ Phương- Hương Thuỷ
+// Nhà đẹp 4 tầng kiệt 266 điện biên phủ

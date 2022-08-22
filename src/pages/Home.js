@@ -7,9 +7,10 @@ import { apiJob } from "../api/projectJob";
 import Advise from "../components/Advise.js";
 import InformationBranch from "../components/InformationBranch";
 import { posts } from "../api/listpost";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <div className="home-page">
       <Banner />
@@ -21,7 +22,10 @@ const Home = () => {
           <h2 className="text-center  text-2xl font-[400] text-[#5d5c56] ">
             Dự án bất động sản
           </h2>
-          <button className="bg-[#fff] border text-[#eec346] border-[#eec346] rounded-sm px-4 py-1">
+          <button
+            onClick={() => navigate("/du-an")}
+            className="bg-[#fff] border text-[#eec346] border-[#eec346] rounded-sm px-4 py-1"
+          >
             Xem tất cả
           </button>
         </div>

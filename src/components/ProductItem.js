@@ -28,7 +28,7 @@ const ProductItem = ({ item }) => {
       onClick={() => handlePushDetail(item?.slug)}
       className="flex relative flex-col  rounded-lg shadow-lg hover:-translate-y-[1px]  cursor-pointer "
     >
-      <div className="pt-[76%] relative border__t">
+      <div className="pt-[100%] relative border__t">
         <img
           src={item?.image}
           alt=""
